@@ -1,7 +1,7 @@
 LockScreenApp
 =============
 
-I have found this project somewhere on internet and I am sharing it with a view to help other developers.
+
 
 It provides lockscreen in API 8 or above.
 
