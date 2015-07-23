@@ -20,10 +20,12 @@
         android:id="@+id/btnUnlock"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="15dp"
         android:layout_below="@id/tvInstructions"
         android:layout_centerHorizontal="true"
+        android:background="@drawable/selector_bg_btn_unlock"
         android:text="@string/unlock"
         android:textAppearance="@android:style/TextAppearance.Large"
-        android:textColor="@color/black" />
+        android:textColor="@color/selector_txt_btn_unlock" />
 
 </RelativeLayout>

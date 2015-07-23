@@ -8,6 +8,7 @@ import com.mehuljoisar.lockscreen.LockScreenActivity;
 
 public class LockscreenIntentReceiver extends BroadcastReceiver {
 
+	// Handle actions and display Lockscreen
 	@Override
 	public void onReceive(Context context, Intent intent) {
 
@@ -19,6 +20,7 @@ public class LockscreenIntentReceiver extends BroadcastReceiver {
 
 	}
 
+	// Display lock screen
 	private void start_lockscreen(Context context) {
 		Intent mIntent = new Intent(context, LockScreenActivity.class);
 		mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
