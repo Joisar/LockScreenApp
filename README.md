@@ -2,6 +2,10 @@ LockScreenApp
 =============
 
 
+Features:
+- Lockscreen over the screen
+- Hardware home button disabled
+- On-going notification to prevent app being killed by OS
 
 It provides lockscreen in API 8 or above.
 
